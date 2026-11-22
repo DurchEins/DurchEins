@@ -1,5 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" shape-rendering="crispEdges">
-  <path fill="#cba6f7" d="M3 3h2v2H3zm8 0h2v2h-2zM3 5h10v7H3zM4 12h8v2H4z"/>
-  <path fill="#181825" d="M5 7h2v2H5zm4 0h2v2H9zM7 10h2v1H7z"/>
-  <path fill="#f5c2e7" d="M4 9h1v1H4zm7 0h1v1h-1z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 18 18" shape-rendering="crispEdges">
+  <style>
+    .cat { animation: bounce 1.4s infinite ease-in-out; }
+    .eyes { animation: blink 3.5s infinite; transform-origin: 8px 8px; }
+    .tail { animation: wag 1.2s infinite alternate ease-in-out; transform-origin: 13px 12px; }
+    @keyframes bounce { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-1.5px); } }
+    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
+    @keyframes wag { 0% { transform: rotate(-8deg); } 100% { transform: rotate(12deg); } }
+  </style>
+  <g class="cat">
+    <!-- Tail -->
+    <path class="tail" fill="#cba6f7" d="M13 11h2v1h-2zm2-2h1v2h-1z"/>
+    <!-- Ears & Head & Body -->
+    <path fill="#cba6f7" d="M3 4h2v2H3zm8 0h2v2h-2zM3 6h10v7H3zM4 13h8v2H4z"/>
+    <!-- Blinking Eyes -->
+    <g class="eyes">
+      <path fill="#181825" d="M5 8h2v2H5zm4 0h2v2H9z"/>
+    </g>
+    <!-- Nose & Cheeks -->
+    <path fill="#f5c2e7" d="M7 10h2v1H7zM4 10h1v1H4zm7 0h1v1h-1z"/>
+  </g>
 </svg>
