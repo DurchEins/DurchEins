@@ -1,0 +1,38 @@
+name: Update Day/Night Status
+
+on:
+  schedule:
+    - cron: "0 7,21 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Day/Night SVG
+        run: |
+          HOUR=$(TZ="Europe/Berlin" date +%H)
+          if [ "$HOUR" -ge 7 ] && [ "$HOUR" -lt 22 ]; then
+            TEXT="☀️ Awake &amp; building in Germany"
+            COLOR="#f9e2af"
+          else
+            TEXT="🌙 Night-owl mode in Germany"
+            COLOR="#cba6f7"
+          fi
+          mkdir -p .github/assets
+          cat <<EOF > .github/assets/day-night-status.svg
+          <svg xmlns="http://www.w3.org/2000/svg" width="235" height="24" viewBox="0 0 235 24">
+            <rect x="0.5" y="0.5" width="234" height="23" rx="6" fill="#181825" stroke="#313244"/>
+            <text x="117.5" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="600" fill="$COLOR">$TEXT</text>
+          </svg>
+          EOF
+      - name: Commit SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/day-night-status.svg
+          git diff --staged --quiet || git commit -m "chore: update day/night status"
+          git push
