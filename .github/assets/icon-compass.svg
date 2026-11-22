@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+  <style>
+    .nd { animation: sw 3.2s infinite ease-in-out; transform-origin: 12px 12px; }
+    @keyframes sw { 0%, 100% { transform: rotate(-14deg); } 50% { transform: rotate(14deg); } }
+  </style>
+  <circle cx="12" cy="12" r="9" stroke="#a6e3a1" stroke-width="1.8"/>
+  <g class="nd">
+    <polygon points="12,6 14.5,12 12,18 9.5,12" fill="#89b4fa"/>
+    <polygon points="12,6 14.5,12 9.5,12" fill="#f38ba8"/>
+  </g>
+</svg>
