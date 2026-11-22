@@ -38,7 +38,7 @@
         <summary><sub><i>The story behind <b>"DurchEins"</b> &amp; <b>n²/1</b></i></sub></summary>
         <br/>
         <sub>
-          <b>DurchEins</b> (<i>"Divided by One"</i>) began as a reminder to stay grounded and true to myself. Then my partner came into my life — both our names start with <b>N</b>, making us a team: <b>N × N = n²</b>. Together that became <b>n²/1</b> in my bio, which mathematically stays whole no matter what. ❤️
+          <b>DurchEins</b> (<i>"Divided by One"</i>) began as a reminder to stay grounded and true to myself. Then my partner came into my life — both our names start with <b>N</b>, making us a team: <br/><b>N × N = n²</b>. Together that became <b>n²/1</b> in my bio, which mathematically stays whole no matter what. ❤️
         </sub>
       </details>
     </td>
