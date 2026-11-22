@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="10" viewBox="0 0 800 10" fill="none">
   <defs>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#cba6f7" stop-opacity="0"/>
       <stop offset="50%" stop-color="#89b4fa" stop-opacity="1"/>
       <stop offset="100%" stop-color="#a6e3a1" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="4.5" width="800" height="1" fill="#45475a" opacity="0.65"/>
-  <rect y="3.5" width="160" height="3" rx="1.5" fill="url(#glow)">
-    <animate attributeName="x" from="-160" to="800" dur="4.5s" repeatCount="indefinite"/>
+  <rect x="0" y="4.5" width="800" height="1" fill="#313244" opacity="0.6"/>
+  <rect y="3.5" width="160" height="3" rx="1.5" fill="url(#g2)">
+    <animate attributeName="x" from="-160" to="800" dur="5s" repeatCount="indefinite"/>
   </rect>
 </svg>
