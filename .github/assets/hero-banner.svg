@@ -5,7 +5,7 @@
     .s3 { animation: twinkle 2.8s infinite ease-in-out 1.2s; }
     .s4 { animation: twinkle 3.8s infinite ease-in-out 1.8s; }
     @keyframes twinkle {
-      0%, 100% { opacity: 0.15; }
+      0%, 100% { opacity: 0.2; }
       50% { opacity: 1; }
     }
     .grad-text {
@@ -29,38 +29,61 @@
     </linearGradient>
   </defs>
   <rect x="0.5" y="0.5" width="899" height="169" rx="12" fill="url(#bg)" stroke="#313244" stroke-width="1"/>
-  <!-- Constellation Lines -->
-  <line x1="70" y1="35" x2="135" y2="75" stroke="#cba6f7" stroke-width="0.6" opacity="0.25"/>
-  <line x1="135" y1="75" x2="195" y2="48" stroke="#89b4fa" stroke-width="0.6" opacity="0.25"/>
-  <line x1="135" y1="75" x2="170" y2="130" stroke="#f5c2e7" stroke-width="0.6" opacity="0.25"/>
-  <line x1="680" y1="42" x2="735" y2="88" stroke="#89b4fa" stroke-width="0.6" opacity="0.25"/>
-  <line x1="735" y1="88" x2="815" y2="55" stroke="#cba6f7" stroke-width="0.6" opacity="0.25"/>
-  <line x1="735" y1="88" x2="775" y2="138" stroke="#f5c2e7" stroke-width="0.6" opacity="0.25"/>
-  <!-- Twinkling Starfield (24 Stars) -->
-  <circle class="s1" cx="70" cy="35" r="2" fill="#cba6f7"/>
-  <circle class="s2" cx="135" cy="75" r="1.5" fill="#cdd6f4"/>
-  <circle class="s3" cx="195" cy="48" r="2.2" fill="#89b4fa"/>
-  <circle class="s4" cx="170" cy="130" r="1.8" fill="#f5c2e7"/>
-  <circle class="s2" cx="55" cy="115" r="1.4" fill="#89b4fa"/>
-  <circle class="s1" cx="250" cy="28" r="1.6" fill="#f5c2e7"/>
-  <circle class="s3" cx="285" cy="138" r="1.3" fill="#cba6f7"/>
-  <circle class="s4" cx="110" cy="145" r="1.5" fill="#cdd6f4"/>
-  <circle class="s1" cx="235" cy="95" r="1.2" fill="#89b4fa"/>
-  <circle class="s2" cx="340" cy="42" r="1.4" fill="#cba6f7"/>
-  <circle class="s4" cx="385" cy="128" r="1.5" fill="#f5c2e7"/>
-  <circle class="s3" cx="515" cy="30" r="1.5" fill="#89b4fa"/>
-  <circle class="s1" cx="560" cy="142" r="1.4" fill="#cba6f7"/>
-  <circle class="s2" cx="620" cy="52" r="1.6" fill="#f5c2e7"/>
-  <circle class="s4" cx="655" cy="125" r="1.2" fill="#cdd6f4"/>
-  <circle class="s1" cx="680" cy="42" r="2" fill="#89b4fa"/>
-  <circle class="s3" cx="735" cy="88" r="1.5" fill="#cdd6f4"/>
-  <circle class="s2" cx="815" cy="55" r="2.2" fill="#cba6f7"/>
-  <circle class="s4" cx="775" cy="138" r="1.8" fill="#f5c2e7"/>
-  <circle class="s1" cx="850" cy="110" r="1.5" fill="#89b4fa"/>
-  <circle class="s3" cx="845" cy="30" r="1.3" fill="#cdd6f4"/>
-  <circle class="s2" cx="725" cy="25" r="1.4" fill="#f5c2e7"/>
-  <circle class="s4" cx="695" cy="148" r="1.6" fill="#cba6f7"/>
-  <circle class="s1" cx="445" cy="22" r="1.2" fill="#cdd6f4"/>
+
+  <!-- LEFT: SCORPIUS (Skorpion) -->
+  <g stroke="#cba6f7" stroke-width="0.7" opacity="0.35">
+    <line x1="62" y1="38" x2="94" y2="66"/>
+    <line x1="50" y1="64" x2="94" y2="66"/>
+    <line x1="66" y1="92" x2="94" y2="66"/>
+    <line x1="94" y1="66" x2="122" y2="78"/>
+    <line x1="122" y1="78" x2="148" y2="98"/>
+    <line x1="148" y1="98" x2="168" y2="124"/>
+    <line x1="168" y1="124" x2="196" y2="138"/>
+    <line x1="196" y1="138" x2="224" y2="130"/>
+    <line x1="224" y1="130" x2="232" y2="110"/>
+    <line x1="232" y1="110" x2="216" y2="96"/>
+  </g>
+  <circle class="s1" cx="62" cy="38" r="1.7" fill="#cba6f7"/>
+  <circle class="s2" cx="50" cy="64" r="1.6" fill="#cdd6f4"/>
+  <circle class="s3" cx="66" cy="92" r="1.7" fill="#89b4fa"/>
+  <circle class="s4" cx="94" cy="66" r="1.9" fill="#cdd6f4"/>
+  <circle class="s1" cx="122" cy="78" r="2.7" fill="#f38ba8"/><!-- Antares -->
+  <circle class="s2" cx="148" cy="98" r="1.6" fill="#cba6f7"/>
+  <circle class="s3" cx="168" cy="124" r="1.6" fill="#cdd6f4"/>
+  <circle class="s4" cx="196" cy="138" r="1.7" fill="#89b4fa"/>
+  <circle class="s1" cx="224" cy="130" r="1.6" fill="#cba6f7"/>
+  <circle class="s2" cx="232" cy="110" r="1.8" fill="#f5c2e7"/>
+  <circle class="s3" cx="216" cy="96" r="2.0" fill="#89b4fa"/>
+
+  <!-- RIGHT: URSA MINOR (Kleiner Wagen) -->
+  <g stroke="#89b4fa" stroke-width="0.7" opacity="0.35">
+    <line x1="665" y1="42" x2="705" y2="58"/>
+    <line x1="705" y1="58" x2="745" y2="72"/>
+    <line x1="745" y1="72" x2="778" y2="84"/>
+    <line x1="778" y1="84" x2="834" y2="74"/>
+    <line x1="834" y1="74" x2="848" y2="118"/>
+    <line x1="848" y1="118" x2="790" y2="128"/>
+    <line x1="790" y1="128" x2="778" y2="84"/>
+  </g>
+  <circle class="s1" cx="665" cy="42" r="2.6" fill="#89b4fa"/><!-- Polaris -->
+  <circle class="s3" cx="705" cy="58" r="1.6" fill="#cdd6f4"/>
+  <circle class="s2" cx="745" cy="72" r="1.6" fill="#cba6f7"/>
+  <circle class="s4" cx="778" cy="84" r="1.8" fill="#cdd6f4"/>
+  <circle class="s1" cx="834" cy="74" r="2.1" fill="#f5c2e7"/>
+  <circle class="s3" cx="848" cy="118" r="2.0" fill="#89b4fa"/>
+  <circle class="s2" cx="790" cy="128" r="1.7" fill="#cba6f7"/>
+
+  <!-- Background Twinkling Stars -->
+  <circle class="s2" cx="310" cy="30" r="1.3" fill="#cba6f7"/>
+  <circle class="s4" cx="385" cy="135" r="1.4" fill="#f5c2e7"/>
+  <circle class="s3" cx="515" cy="28" r="1.4" fill="#89b4fa"/>
+  <circle class="s1" cx="575" cy="142" r="1.3" fill="#cba6f7"/>
+  <circle class="s2" cx="445" cy="22" r="1.2" fill="#cdd6f4"/>
+  <circle class="s4" cx="275" cy="75" r="1.1" fill="#cdd6f4"/>
+  <circle class="s1" cx="620" cy="105" r="1.2" fill="#f5c2e7"/>
+  <circle class="s3" cx="145" cy="30" r="1.2" fill="#89b4fa"/>
+  <circle class="s2" cx="760" cy="32" r="1.2" fill="#cdd6f4"/>
+
   <!-- Title -->
   <text class="grad-text" x="50%" y="54%" text-anchor="middle" dominant-baseline="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1" fill="url(#textGrad)">DurchEins</text>
 </svg>
