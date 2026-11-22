@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+  <style>
+    .bt { animation: zap 2s infinite ease-in-out; }
+    @keyframes zap { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; filter: drop-shadow(0 0 2px #f9e2af); } }
+  </style>
+  <path class="bt" fill="#f9e2af" d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/>
+</svg>
