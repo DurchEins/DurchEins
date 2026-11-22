@@ -41,12 +41,12 @@
     <td width="100%" style="background-color: #0d1117; border-radius: 8px; padding: 16px;">
       <div align="right">
         <a href="https://github.com/DurchEins/apkup/stargazers">
-          <img src="https://img.shields.io/github/stars/DurchEins/apkup?style=flat-square&color=cba6f7&labelColor=181825&logo=apachespark&logoColor=cba6f7&label=Stars" />
+          <img src="https://img.shields.io/github/stars/DurchEins/apkup?style=flat&color=cba6f7&labelColor=181825&logo=apachespark&logoColor=cba6f7&label=Stars" />
         </a>
         <a href="https://github.com/DurchEins/apkup/releases">
-          <img src="https://img.shields.io/github/v/release/DurchEins/apkup?style=flat-square&color=89b4fa&labelColor=181825&label=Release" />
+          <img src="https://img.shields.io/github/v/release/DurchEins/apkup?style=flat&color=89b4fa&labelColor=181825&label=Release" />
         </a>
-        <img src="https://img.shields.io/badge/License-GPLv3-a6e3a1?style=flat-square&labelColor=181825" />
+        <img src="https://img.shields.io/badge/License-GPLv3-a6e3a1?style=flat&labelColor=181825" />
       </div>
       <h3>📦 <a href="https://github.com/DurchEins/apkup">ApkUp</a> — Modern Multi-Source App Updater</h3>
       <p>
@@ -66,14 +66,14 @@
 <!-- TOOLS & ÖKOSYSTEM -->
 ### 🧭 Ökosystem & Tools, die ich feiere
 <div align="left">
-  <a href="https://store.google.com/category/phones"><img src="https://img.shields.io/badge/Google%20Pixel-Android-4285F4?style=flat-square&labelColor=181825&logo=google&logoColor=white" /></a>
-  <a href="https://m3.material.io"><img src="https://img.shields.io/badge/Material%20Design%203-UI%20System-89b4fa?style=flat-square&labelColor=181825&logo=materialdesign&logoColor=white" /></a>
-  <a href="https://www.home-assistant.io"><img src="https://img.shields.io/badge/Home%20Assistant-Smart%20Home-18BCF2?style=flat-square&labelColor=181825&logo=homeassistant&logoColor=white" /></a>
-  <a href="https://adguard.com/de/adguard-home/overview.html"><img src="https://img.shields.io/badge/Pi--hole%20%2F%20AdGuard-Privacy%20DNS-a6e3a1?style=flat-square&labelColor=181825&logo=adguard&logoColor=white" /></a>
-  <a href="https://localsend.org"><img src="https://img.shields.io/badge/LocalSend-File%20Sharing-74c7ec?style=flat-square&labelColor=181825" /></a>
-  <a href="https://astro.build"><img src="https://img.shields.io/badge/Astro-Web%20Framework-FF5D01?style=flat-square&labelColor=181825&logo=astro&logoColor=white" /></a>
-  <a href="https://zapstore.dev"><img src="https://img.shields.io/badge/Zapstore-Nostr%20App%20Store-cba6f7?style=flat-square&labelColor=181825" /></a>
-  <a href="https://www.ea.com/games/the-sims/the-sims-4"><img src="https://img.shields.io/badge/Sims%204-Modding%20%26%20MCCC-00A859?style=flat-square&labelColor=181825" /></a>
+  <a href="https://store.google.com/category/phones"><img src="https://img.shields.io/badge/Google%20Pixel-Android-4285F4?style=flat&labelColor=181825&logo=google&logoColor=white" /></a>
+  <a href="https://m3.material.io"><img src="https://img.shields.io/badge/Material%20Design%203-UI%20System-89b4fa?style=flat&labelColor=181825&logo=materialdesign&logoColor=white" /></a>
+  <a href="https://www.home-assistant.io"><img src="https://img.shields.io/badge/Home%20Assistant-Smart%20Home-18BCF2?style=flat&labelColor=181825&logo=homeassistant&logoColor=white" /></a>
+  <a href="https://adguard.com/de/adguard-home/overview.html"><img src="https://img.shields.io/badge/Pi--hole%20%2F%20AdGuard-Privacy%20DNS-a6e3a1?style=flat&labelColor=181825&logo=adguard&logoColor=white" /></a>
+  <a href="https://localsend.org"><img src="https://img.shields.io/badge/LocalSend-File%20Sharing-74c7ec?style=flat&labelColor=181825" /></a>
+  <a href="https://astro.build"><img src="https://img.shields.io/badge/Astro-Web%20Framework-FF5D01?style=flat&labelColor=181825&logo=astro&logoColor=white" /></a>
+  <a href="https://zapstore.dev"><img src="https://img.shields.io/badge/Zapstore-Nostr%20App%20Store-cba6f7?style=flat&labelColor=181825" /></a>
+  <a href="https://www.ea.com/games/the-sims/the-sims-4"><img src="https://img.shields.io/badge/Sims%204-Modding%20%26%20MCCC-00A859?style=flat&labelColor=181825" /></a>
 </div>
 
 <br/>
@@ -104,8 +104,8 @@
   <sub>💬 Fragen, Ideen oder Feedback? Schreib mir gerne in den <a href="https://github.com/DurchEins/apkup/discussions">Discussions</a> oder erstelle ein Issue!</sub>
   <br/><br/>
   <a href="https://stand-with-ukraine.pp.ua">
-    <img src="https://img.shields.io/badge/Stand%20with-Ukraine-%230057B7?style=flat-square&labelColor=%23FFD700" alt="Stand with Ukraine"/>
+    <img src="https://img.shields.io/badge/Stand%20with-Ukraine-%230057B7?style=flat&labelColor=%23FFD700" alt="Stand with Ukraine"/>
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=DurchEins&style=flat-square&color=cba6f7&label=Profile+Views" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=DurchEins&style=flat&color=cba6f7&label=Profile+Views" alt="Profile Views"/>
 </div>
