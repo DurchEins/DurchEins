@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+  <style>
+    .cr { animation: gl 2.8s infinite ease-in-out; }
+    @keyframes gl { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+  </style>
+  <polygon class="cr" points="12,2 20,10 12,22 4,10" fill="#cba6f7" stroke="#f5c2e7" stroke-width="1.2"/>
+</svg>
